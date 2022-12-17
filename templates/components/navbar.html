@@ -1,0 +1,31 @@
+{% load static %} 
+
+<nav class="fixed top-0 left-0 w-full h-20 grid grid-cols-12 z-50">
+  <div class="col-span-3 flex items-center justify-start pl-6 pr-3">
+    <a href="/" class="w-16 h-16 rounded-md flex items-center justify-center mr-3">
+      <i class="fa-solid fa-arrows-to-dot text-5xl text-zinc-9 00"></i>
+    </a>
+    <div class="w-full relative rounded-xl">
+      <div class="absolute right-3 top-2/4 -translate-y-2/4">
+        <i class="fa-solid fa-magnifying-glass text-xl text-zinc-500"></i>
+      </div>
+      <input type="text" placeholder="Search..." class="bg-white w-full h-12 pr-12 rounded-xl focus:border-zinc-900 border-zinc-100">
+    </div>
+  </div>
+
+  <div class="col-span-9 flex items-center justify-end px-6 mr-3">
+    <a href="#" class="rounded-xl h-12 w-12 flex items-center justify-center mr-6 hover:bg-zinc-100">
+      <i class="fa-solid fa-bell text-xl"></i>
+    </a>
+    <div class="bg-zinc-100 flex items-center justify-center rounded-xl px-3 py-1.5 mr-6">
+      <div class="h-8 w-8 rounded-full flex items-center justify-center border-2 mr-1.5"></div>
+      <a href="#" class="flex items-center justify-center relative">
+        <p class="mr-3">Jilver Pacheco</p>
+        <i class=" fa-solid fa-sort-down text-xl h-8 flex items-center justify-center"></i>
+      </a>
+    </div>
+    <a href="#" class="rounded-xl h-12 w-12 flex items-center justify-center hover:bg-zinc-100">
+      <i class="fa-solid fa-table-cells-large text-xl"></i>
+    </a>
+  </div>
+</nav>
