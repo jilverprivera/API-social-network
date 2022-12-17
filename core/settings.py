@@ -33,7 +33,6 @@ DJANGO_APPS = [
 
 PROJECT_APPS = [
     'core',
-    'social',
     'apps.courses',
     'apps.user',
     'apps.category',
